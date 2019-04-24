@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <title>playing</title>
     <link rel="stylesheet" href="tamagotchi.css" type="text/css">
-    <link rel="stylesheet" href="loading-bar.css.css" type="text/css">
+
 </head>
 <body>
 <p id="playername"></p>
 
 <h1 id="money">$0</h1>
 
-<img class ="img" src="images/placeholder-female-square.png">
+<img class ="img" src="images/tamogotchi.gif" alt="C H A N G E T H I S">
 
 <div id="boxes">
     <label for="makemoney">Free money
     </label>
     <input type="button" id = "makemoney" value="make $2">
-    <div class="ldBar" data-value="100"></div>
+
 
     <label for="hunger" data-value="100">Food
     </label>
     <input type="button" id = "hunger" value="Feed $10">
-    <div class="ldBar" data-value="100"></div>
+    <progress id="hungerbar" value="100" max="100"></progress>
 
     <label for="happy">happiness
     </label>
     <input type="button" id = "happy" value="play $10">
-    <div class="ldBar" data-value="2" data-duration=1"></div>
+    <progress id="happybar" value="100" max="100">100%</progress>
 
     <label for="sleep">Sleep
     </label>
     <input type="button" id = "sleep" value="sleep $10">
-    <div class="ldBar" data-value="100"></div>
+    <progress id="sleepbar" value="100" max="100"></progress>
 </div>
 
 <script src="main.js"></script>
-<script src="loading-bar.js"></script>
+
 </body>
 </html>
