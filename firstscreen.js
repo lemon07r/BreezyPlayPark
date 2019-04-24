@@ -1,8 +1,8 @@
 
-var submit = document.getElementById("donename");
+let submit = document.getElementById("donename");
 
 submit.addEventListener("click", function() {
-    var name =  document.getElementById("namer").value;
+    let name =  document.getElementById("namer").value;
 
         if(!name){
             alert("please fill out the name of your guy");
@@ -17,8 +17,8 @@ submit.addEventListener("click", function() {
 });
 
 function addBorder(id) {
-    var x = document.getElementsByClassName("img");
-    for(i = 0; i < x.length; i++)
+    let x = document.getElementsByClassName("img");
+    for(let i = 0; i < x.length; i++)
     {
         x.item(i).style.border = 'none';
     }

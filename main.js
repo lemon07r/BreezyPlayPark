@@ -1,4 +1,4 @@
-var money = 0;
+let money = 0;
 let moneybutton = document.getElementById("makemoney");
 let hungry = document.getElementById("hunger");
 let sleepy = document.getElementById("sleep");
@@ -43,7 +43,7 @@ play.addEventListener("click", function () {
 });
 
 function displaymoney(moneylist){
-    var kill = document.getElementById("money");
+    let kill = document.getElementById("money");
     kill.innerHTML = " ";
     kill.innerHTML = "$" + moneylist;
 
